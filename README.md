@@ -478,6 +478,11 @@ If you have a bug to report, please reproduce the bug in [CodeSandbox](https://c
 
 ## Changelog
 
+#### v9.1.0
+
+- Feat: Add `scale` props. #482
+- Feat: Upgrade deps.
+
 #### v9.0.4
 
 - Fix: cursor style #469
