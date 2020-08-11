@@ -1,6 +1,6 @@
 {
-  "name": "react-rnd",
-  "version": "10.2.1",
+  "name": "powerai-react-rnd",
+  "version": "10.2.4",
   "description": "",
   "title": "react-rnd",
   "main": "./lib/index.es5.js",
@@ -100,7 +100,12 @@
   },
   "dependencies": {
     "re-resizable": "6.3.2",
-    "react-draggable": "4.4.3",
+    "powerai-react-draggable-v2": "^4.4.5",
     "tslib": "2.0.0"
+  },
+  "build": {
+    "electronDownload": {
+      "mirror": "https://npm.taobao.org/mirrors/electron/"
+    }
   }
 }

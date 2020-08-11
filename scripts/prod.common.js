@@ -17,8 +17,8 @@ export default {
     globals: {
       react: 'React',
       're-resizable': 'Resizable',
-      'react-draggable': 'Draggable',
+      'powerai-react-draggable-v2': 'Draggable',
     },
   },
-  external: ['react', 're-resizable', 'react-draggable'],
+  external: ['react', 're-resizable', 'powerai-react-draggable-v2'],
 };

@@ -514,17 +514,17 @@ If you have a bug to report, please reproduce the bug in [CodeSandbox](https://c
 
 #### v10.2.0
 
-- Upgrade `react-draggable` to v4.4.3
+- Upgrade `powerai-react-draggable-v2` to v4.4.3
 - Add `allowAnyClick` props.
 - Add `nodeRef` props.
 
 #### v10.1.10
 
-- Downgrade `react-draggable` to v4.2.0 #690
+- Downgrade `powerai-react-draggable-v2` to v4.2.0 #690
 
 #### v10.1.9
 
-- Update `react-draggable` to v4.3.1
+- Update `powerai-react-draggable-v2` to v4.3.1
 
 #### v10.1.8
 
@@ -540,7 +540,7 @@ If you have a bug to report, please reproduce the bug in [CodeSandbox](https://c
 
 #### v10.1.5
 
-- Fixed a bug, react-draggable not bundling with rollup #641
+- Fixed a bug, powerai-react-draggable-v2 not bundling with rollup #641
 
 #### v10.1.4
 
@@ -553,7 +553,7 @@ If you have a bug to report, please reproduce the bug in [CodeSandbox](https://c
 #### v10.1.2
 
 - Upgrade re-resizable to 6.1.1
-- Upgrade react-draggable to 4.1.0
+- Upgrade powerai-react-draggable-v2 to 4.1.0
 
 #### v10.1.1
 
@@ -562,7 +562,7 @@ If you have a bug to report, please reproduce the bug in [CodeSandbox](https://c
 #### v10.1.0
 
 - Implement resizeHandleComponent #591
-- Update dependency react-draggable to v4
+- Update dependency powerai-react-draggable-v2 to v4
 
 #### v10.0.0
 
@@ -666,11 +666,11 @@ fix: `isMounted` and `(!this.state.isMounted) return <div />` line #356
 
 #### v7.2.0
 
-- Support for cancel feature of react-draggable #206
+- Support for cancel feature of powerai-react-draggable-v2 #206
 
 #### v7.1.5
 
-- Fixed a issue #199 Add enableUserSelectHack props to react-draggable
+- Fixed a issue #199 Add enableUserSelectHack props to powerai-react-draggable-v2
 
 #### v7.1.4
 
@@ -721,7 +721,7 @@ fix: `isMounted` and `(!this.state.isMounted) return <div />` line #356
 
 #### v5.1.0
 
-- Update dependencies(`react-draggable v3`, `flow-bin v0.53`, and other...)
+- Update dependencies(`powerai-react-draggable-v2 v3`, `flow-bin v0.53`, and other...)
 
 #### v5.0.9
 
@@ -766,7 +766,7 @@ fix: `isMounted` and `(!this.state.isMounted) return <div />` line #356
 
 - Fix resize bounds.
 - Modify API.
-- Use original `react-draggable`.
+- Use original `powerai-react-draggable-v2`.
 
 
 #### v4.2.1

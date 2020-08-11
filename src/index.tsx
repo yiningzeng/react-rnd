@@ -1,8 +1,8 @@
 import * as React from "react";
-import { DraggableEventHandler, default as DraggableRoot } from "react-draggable";
+import { DraggableEventHandler, default as DraggableRoot } from "powerai-react-draggable-v2";
 import { Enable, Resizable, ResizeDirection } from "re-resizable";
 
-// FIXME: https://github.com/mzabriskie/react-draggable/issues/381
+// FIXME: https://github.com/mzabriskie/powerai-react-draggable-v2/issues/381
 //         I can not find `scale` too...
 type $TODO = any;
 const Draggable: any = DraggableRoot;
@@ -253,7 +253,7 @@ export class Rnd extends React.PureComponent<Props, State> {
     this.forceUpdate();
   }
 
-  // HACK: To get `react-draggable` state x and y.
+  // HACK: To get `powerai-react-draggable-v2` state x and y.
   getDraggablePosition(): { x: number; y: number } {
     const { x, y } = (this.draggable as any).state;
     return { x, y };
